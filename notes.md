@@ -34,3 +34,20 @@ Modelo de heranca de prototipo
 
 from Admin.js
 Super class = User
+
+Encapsulamento: Acao de esconder algum atributo de uma classe.
+
+'#' e um atributo privado, ele permite que nao sejam alteradas as propriedades da classe.
+
+#montaOjbUser() {
+// return {
+// nome: this.#nome,
+// email: this.#email,
+// nascimento: this.#nascimento,
+// role: this.#role,
+// ativo: this.#ativo,
+// };
+}
+
+O metodo GET evita acoplamento, evitando assim que o codigo seja refatorado.
+Obs.: O GET e uma propriedade acessora.
