@@ -37,7 +37,7 @@ Super class = User
 
 Encapsulamento: Acao de esconder algum atributo de uma classe.
 
-'#' e um atributo privado, ele permite que nao sejam alteradas as propriedades da classe.
+'#' (Cerquilha) e um atributo privado, ele permite que nao sejam alteradas as propriedades da classe.
 
 #montaOjbUser() {
 // return {
@@ -51,3 +51,17 @@ Encapsulamento: Acao de esconder algum atributo de uma classe.
 
 O metodo GET evita acoplamento, evitando assim que o codigo seja refatorado.
 Obs.: O GET e uma propriedade acessora.
+
+Solid:
+
+-   Single Responsability Principle (Principio da responsabilidade unica);
+
+-   Open/Closed Principle (Principio do Aberto/Fechado);
+
+-   Liskov Substitution Principle (Principio da substituicao de Liskov);
+
+-   Interface Segregation Principle (Principio da segregacao de interface);
+
+-   Dependency Inversion Principle (Principio da Inversao de Dependencia);
+
+polimorfismo: e a alteração de um método de uma classe para que, na subclasse, o método tenha a mesma assinatura porém um comportamento diferente do método executado no contexto da superclasse;

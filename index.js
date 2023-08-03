@@ -7,7 +7,10 @@ import Admin from "./Admin.js";
 
 //importente chamar como uma propriedade, sem os ()
 
-const novoAdmin = new Admin("umbertir", "gaga@", "333");
-console.log(novoAdmin.nome);
-novoAdmin.nome = "";
-console.log(novoAdmin.nome);
+// const novoAdmin = new Admin("umbertir", "gaga@", "333");
+// console.log(novoAdmin.nome);
+// novoAdmin.nome = "";
+// console.log(novoAdmin.nome);
+
+const novoDocente = new Docente("Guilherme", "gi@", "2000");
+console.log(novoDocente.exibirInfos());
